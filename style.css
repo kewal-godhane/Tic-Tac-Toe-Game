@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+table{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+td{
+    text-align: center;
+    font-size: 60px;
+    padding: 30px;
+    margin: 0;
+    padding: 0;
+    border: 2px solid black;
+    width: 100px;
+    height: 100px;
+}
+#result{
+    padding: 0;
+    margin: 20px;
+    font-size: xx-large;
+    color: red;
+}
